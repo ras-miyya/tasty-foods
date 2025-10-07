@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Zone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+   <!--nav bar-->
+   <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><h3 class="text-primary">Food Zone </h3></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#order">Order</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Items 
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Chinese</a></li>
+            <li><a class="dropdown-item" href="#">Biriyani</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Desserts</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#footer" tabindex="-1" aria-disabled="true" >Location</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!--caruosal-->
+<DIV class="container-fluid p-0">
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="burg.jpeg" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Zinger Burger</h5>
+        <p>Melting taste of cheese and it made with love.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="biri.jpeg" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Chicken Biriyani</h5>
+        <p>Kozhikodan Chicken Dham Biriyani.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Chicken Momo.jpeg" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Noodles</h5>
+        <p>Spicy and Tasty CHinese Schezwan Noodles.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</DIV>
+<!--order section-->
+
+<div class="container" id="order">
+  <h1 class="text-center">Order Your Foods Now....</h1>
+   <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="card text-center border-2 border-white" style="width: 15rem; ">
+                <div class="card-body">
+                    <img src="sign.jpeg" alt="" class="card-img-top">
+                    <h2 class="card-title">kunafa</h2>
+                    <p class="card-text"> Nutella chocolate Kunafa
+               <span class="text-danger">Rs:359</span>
+                </p>                  
+                    <button class="btn btn-primary">Buy Now </button>
+                </div>
+            </div>
+        </div>
+       
+        <div class="col-sm-6 col-md-6 col-lg-4">
+             <div class="card text-center border-2 border-white" style="width: 15rem; ">
+                <div class="card-body">
+                    <img src="laav.jpeg" alt="" class="card-img-top" style="height: 360px;">
+                    <h2 class="card-title">cake</h2>
+                    <p class="card-text">chocolate Lava Cake<br>
+               <span class="text-danger">Rs:499</span>
+                </p>                  
+                    <button class="btn btn-primary">Buy Now </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="card text-center border-2 border-white" style="width: 15rem; ">
+                <div class="card-body">
+                    <img src="brow.jpeg" alt="" class="card-img-top" style="height: 360px;">
+                    <h2 class="card-title">Brownie</h2>
+                    <p class="card-text">chocolate Brownie Cake<br>
+               <span class="text-danger">Rs:49</span>
+                </p>                  
+                    <button class="btn btn-primary">Buy Now </button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-4">
+              <div class="card text-center border-2 border-white" style="width: 15rem; ">
+                <div class="card-body">
+                    <img src="biri.jpeg" alt="" class="card-img-top" style="height: 360px;">
+                    <h2 class="card-title">Biriyani</h2>
+                    <p class="card-text">Chicken Biriyani<br>
+               <span class="text-danger">Rs:49</span>
+                </p>                  
+                    <button class="btn btn-primary">Buy Now </button>
+                </div>
+            </div></div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+              <div class="card text-center border-2 border-white" style="width: 15rem; ">
+                <div class="card-body">
+                    <img src="noodles.jpeg" alt="" class="card-img-top" style="height: 360px;">
+                    <h2 class="card-title">Noodles</h2>
+                    <p class="card-text">Chicken noodles<br>
+               <span class="text-danger">Rs:149</span>
+                </p>                  
+                    <button class="btn btn-primary">Buy Now </button>
+                </div>
+            </div></div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+              <div class="card text-center border-2 border-white" style="width: 15rem; ">
+                <div class="card-body">
+                    <img src="Chicken Momo.jpeg" alt="" class="card-img-top" style="height: 360px;">
+                    <h2 class="card-title">Momos</h2>
+                    <p class="card-text">Chicken Momo<br>
+               <span class="text-danger">Rs:349</span>
+                </p>                  
+                    <button class="btn btn-primary">Buy Now </button>
+                </div>
+            </div></div>
+        </div>
+    </div>
+
+    <div class="row my-4">
+        <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="card text-center border-2 border-white" style="width: 15rem; ">
+                <div class="card-body">
+                    <img src="zing.jpeg" alt="" class="card-img-top" style="height: 360px;">
+                    <h2 class="card-title">Burger</h2>
+                    <p class="card-text">Zinger Burger<br>
+               <span class="text-danger">Rs:199</span>
+                </p>                  
+                    <button class="btn btn-primary">Buy Now </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-4"> 
+             <div class="card text-center border-2 border-white" style="width: 15rem; ">
+                <div class="card-body">
+                    <img src="kfc .jpeg" alt="" class="card-img-top" style="height: 360px;">
+                    <h2 class="card-title">KFC</h2>
+                    <p class="card-text">Kfc Fried Chicken<br>
+               <span class="text-danger">Rs:799</span>
+                </p>                  
+                    <button class="btn btn-primary">Buy Now </button>
+                </div>
+            </div></div>
+        <div class="col-sm-6 col-md-6 col-lg-4">
+              <div class="card text-center border-2 border-white" style="width: 15rem; ">
+                <div class="card-body">
+                    <img src="load.jpeg" alt="" class="card-img-top" style="height: 360px;">
+                    <h2 class="card-title">fries</h2>
+                    <p class="card-text">Tikka Cheese Loaded Fries<br>
+               <span class="text-danger">Rs:199</span>
+                </p>                  
+                    <button class="btn btn-primary">Buy Now </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+<div class="container-fluid bg-warning" id="footer">
+  <div class="row">
+    <h1 class="text-center">Location</h1>
+    <div class="col-sm-6 col-md-6 col-lg-6">
+      <h1 class="text-white">Miami Food Court</h1>
+   <h4>calicut</h4>
+      <h4>kerala</h4>
+      <p>tel no:6238113325</p>
+      <p>website:www.foody.com</p>
+      <p>email:rasmiyamiya91@gmail.com</p>
+          </div> 
+          <div class="col-sm-6 col-md-6 col-lg-6 bg-warning">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.2832013908064!2d75.80089007364211!3d11.240565150463977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba659006558ba99%3A0xd1b2917bee3e65c0!2sLuLu%20Mall%20Kozhikode!5e0!3m2!1sen!2sin!4v1759734532825!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+  </div>
+</div>
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
